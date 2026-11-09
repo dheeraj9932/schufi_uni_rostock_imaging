@@ -7,7 +7,7 @@ Companion website for the poster **"Non-invasive Fish Monitoring in Baltic Sea M
 ## What is on the site
 
 - Project motivation: non-invasive fish monitoring in German Baltic Sea MPAs (Adlergrund, Pommersche Bucht–Rönnebank)
-- Four research cruises to Adlergrund (RV Alkor with GEOMAR; April, July & September 2026) and the ~10,000 images collected
+- Four research cruises to Adlergrund (RV Alkor · Nov 2025; RV Prince Madog · Apr 2026; RV Fortuna · Jul 2026; RV Prince Madog · Sep 2026) and the ~10,000 images collected
 - The camera systems: ROV (Chasing M2), tow camera (Schleppkamera), BRUV300 stereo, static stereo & drop/360° rigs
 - The imaging-to-AI pipeline (7 steps) and the challenges (marine snow, turbidity, camouflage, no Baltic benchmark datasets)
 - Insights from the literature review, current work, theses and 2027 plans

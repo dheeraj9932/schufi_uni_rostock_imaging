@@ -124,6 +124,18 @@ figcaption { font-size: 0.85rem; color: var(--muted); margin-top: 8px; }
 .dotlist { padding-left: 1.2rem; }
 .dotlist li { margin-bottom: 12px; }
 
+/* ---- cruise chip list ---- */
+.chip-list {
+  list-style: none; padding: 0; margin: 20px 0 28px;
+  display: flex; flex-wrap: wrap; gap: 12px;
+}
+.chip-list li {
+  background: #fff; border: 2px solid var(--teal); color: var(--navy);
+  border-radius: 999px; padding: 8px 18px; font-weight: 600; font-size: 0.95rem;
+  box-shadow: 0 2px 6px rgba(12,42,74,.08);
+}
+.strip-title { color: var(--navy); margin-top: 8px; }
+
 /* ---- footer ---- */
 footer {
   background: var(--navy); color: #cfe3ef;

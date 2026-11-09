@@ -55,7 +55,13 @@
 <section id="cruises" class="alt">
   <div class="container">
     <h2>What we've done so far — four cruises</h2>
-    <p class="section-lead">So far we have carried out <strong>four research cruises</strong> to the Adlergrund shoal area. One cruise was conducted with the GEOMAR Helmholtz Centre for Ocean Research Kiel aboard RV <em>Alkor</em>; three further campaigns followed in <strong>April, July and September 2026</strong> (April aboard RV <em>Prince Madog</em>, 20.–27.04.2026), deploying multiple camera systems across stations at depths of roughly <strong>1–30 m</strong>, varying sampling frequency, time of day and lighting conditions.</p>
+    <p class="section-lead">So far we have carried out <strong>four research cruises</strong> to the Adlergrund shoal area, deploying multiple camera systems across stations at depths of roughly <strong>1–30 m</strong> — varying sampling frequency, time of day and lighting conditions:</p>
+    <ul class="chip-list">
+      <li><em>RV Alkor</em> · November 2025</li>
+      <li><em>RV Prince Madog</em> · April 2026</li>
+      <li><em>RV Fortuna</em> · July 2026</li>
+      <li><em>RV Prince Madog</em> · September 2026</li>
+    </ul>
     <div class="grid cards" id="camcards">
       <article class="card">
         <img src="images/sample_tow_camera_underwater.jpg" alt="Tow camera operating underwater">
@@ -78,6 +84,13 @@
       <figure><img src="images/sample_stereo_station30.jpg" alt="Static stereo camera frame, station 30"><figcaption>Static stereo camera · station 30, mussels and rocky ground</figcaption></figure>
       <figure><img src="images/sample_stereo_dawn_station30.jpg" alt="Static stereo camera frame, station 30, low light"><figcaption>Same station at day–night transition — low light, different behaviour</figcaption></figure>
       <figure><img src="images/sample_drone_night_marine_snow.jpg" alt="ROV night image with marine snow"><figcaption>ROV at night — marine snow backscatter, auto white balance</figcaption></figure>
+    </div>
+
+    <h3 class="strip-title">Deck impressions — RV Fortuna, July 2026 campaign</h3>
+    <div class="grid three">
+      <figure><img src="images/cruise3_team_group.jpg" alt="Three team members in orange work gear and safety helmets on the deck of RV Fortuna"><figcaption>The imaging team on deck, RV Fortuna — July 2026</figcaption></figure>
+      <figure><img src="images/cruise3_deck_operations.jpg" alt="Crew operating camera equipment with the stern crane of RV Fortuna"><figcaption>Camera-system deployment over the stern — crane handling in operation</figcaption></figure>
+      <figure><img src="images/cruise3_camera_handling.jpg" alt="Team members preparing camera rigs and equipment boxes on the working deck"><figcaption>Preparing the static camera rigs between stations</figcaption></figure>
     </div>
 
     <figure class="wide">
@@ -168,12 +181,12 @@
     <h2>Team outputs</h2>
     <div class="grid three">
       <article class="callout">
-        <h3>Bachelor thesis — completed</h3>
-        <p>Camera systems vs. fish species: an expert-verified trait framework (ten parameters) combining fish characteristics with camera competency of the deployed systems, analysed with logical matching + principal-component analysis on Prince Madog campaign data (2026).</p>
+        <h3>Bachelor thesis — completed (2026)</h3>
+        <p><strong>Emil Warning</strong> · <em>Camera systems vs. fish species:</em> an expert-verified framework of ten fish-trait parameters (shape, size, mobility, water-column position, swarm behaviour, day/night activity, confusion partners, frequency, colour, patterning) mapped against the capabilities of the deployed camera systems — analysed with logical matching (fish–camera matrix) and principal-component analysis on data from the April 2026 RV <em>Prince Madog</em> campaign.</p>
       </article>
       <article class="callout">
-        <h3>Master's thesis — in progress</h3>
-        <p><strong>Zero-shot clustering of wild fish images with vision transformers</strong> (start Nov 2026): applying the DINOv3 embedding + clustering pipeline of Markoff, Bengtson &amp; Ørsted (2026) to open-source fish datasets, then embedding SCHUFI's Baltic imagery in the same space. Nov 2026 → Mar 2027 · supervisors: Prof. Dr. H. Theisel (OVGU Magdeburg), Dr. V. Fischbach &amp; Dheeraj Tippani (Univ. Rostock).</p>
+        <h3>Master's thesis — in progress (Nov 2026 → Mar 2027)</h3>
+        <p><strong>Kiran Babu Thatha</strong> (M.Sc. Digital Engineering, Otto von Guericke University Magdeburg) · <em>Zero-Shot Clustering of Wild Fish Images Using Vision Transformers</em> — applying the frozen pretrained DINOv3 embedding + dimensionality-reduction + clustering pipeline of Markoff, Bengtson &amp; Ørsted (2026) to open-source fish datasets, then mapping SCHUFI's Baltic Sea imagery into the same space. Supervisors: Prof. Dr.-Ing. H. Theisel (OVGU Magdeburg), Dr. V. Fischbach &amp; Dheeraj Tippani (University of Rostock). Kick-off meeting: November 2026.</p>
       </article>
       <article class="callout">
         <h3>Conference · GFI 2026</h3>
@@ -188,9 +201,12 @@
   <div class="container narrow">
     <h2>What we plan to do</h2>
     <ul class="dotlist">
-      <li>Dec 2026: run the zero-shot clustering pipeline on open-source fish datasets, then transfer to SCHUFI imagery — key step toward <em>species-level inference without Baltic training data</em>.</li>
-      <li><strong>2027 (Tier 1):</strong> conference presentations and peer-reviewed papers from the Adlergrund cruises; a scalable end-to-end imaging pipeline (acquisition → filtering → detection → size estimation).</li>
-      <li><strong>2027 (Tier 2):</strong> custom-built ROV, expanding multi-method integration (imaging ↔ eDNA ↔ isotope testing ↔ plankton sampling) for fish ecology and biodiversity monitoring in the German EEZ.</li>
+      <li>Implement a standard pipeline for state-of-the-art fish detection and fish species classification tasks.</li>
+      <li>Initial test runs of underwater stereo calibration and depth estimation from the obtained stereo images.</li>
+      <li>Acquisition of an ROV.</li>
+      <li>Integration of sonar devices into the current imaging / data-acquisition pipeline.</li>
+      <li>Establish an organised research data management (RDM) system for the SCHUFI project — promoting data and knowledge sharing between the associated institutes.</li>
+      <li>A master's thesis on data understanding of existing fish datasets.</li>
     </ul>
   </div>
 </section>
