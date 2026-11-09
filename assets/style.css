@@ -136,6 +136,11 @@ figcaption { font-size: 0.85rem; color: var(--muted); margin-top: 8px; }
 }
 .strip-title { color: var(--navy); margin-top: 8px; }
 
+/* ---- uniform photo strip ---- */
+.photo-strip { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.photo-strip img { height: 300px; object-fit: cover; }
+.photo-strip img[src*="team_vivian"] { object-position: 50% 30%; }
+
 /* ---- footer ---- */
 footer {
   background: var(--navy); color: #cfe3ef;
