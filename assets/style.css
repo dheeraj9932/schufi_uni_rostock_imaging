@@ -148,6 +148,9 @@ figcaption { font-size: 0.85rem; color: var(--muted); margin-top: 8px; }
 .team-pics img { width: 100%; height: 400px; object-fit: cover; display: block; }
 .team-pics img[src*="team_marius"] { object-position: 65% 25%; }
 .team-pics figcaption { text-align: center; margin-top: 10px; font-size: 1rem; color: var(--navy); }
+.team-pics figcaption a { color: var(--teal); text-decoration: none; font-size: 0.88rem; }
+.team-pics figcaption a:hover { text-decoration: underline; }
+footer a { color: #9fd6e0; }
 
 /* ---- uniform photo strip ---- */
 .photo-strip { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
