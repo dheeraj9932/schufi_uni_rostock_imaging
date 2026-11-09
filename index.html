@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SCHUFI · Underwater Imaging — Non-invasive Fish Monitoring in Baltic Sea MPAs</title>
+<meta name="description" content="SCHUFI underwater imaging: non-invasive fish monitoring with camera systems and automated fish detection in the Adlergrund marine protected area, German Baltic Sea.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="top">
+  <div class="container">
+    <p class="hero-kicker">SCHUFI Project · University of Rostock · Institute of Biosciences, Aquatic Ecology</p>
+    <h1>Non-invasive Fish Monitoring in Baltic Sea Marine Protected Areas</h1>
+    <p class="hero-sub">Underwater imaging &amp; automated fish detection — from cruise-collected video in the Adlergrund to scalable, image-based biodiversity observation.</p>
+    <p class="hero-authors">Sai Dheeraj Reddy Tippani · Dr. Vivian Helen Fischbach</p>
+    <div class="hero-cta">
+      <a class="btn" href="#cruises">Cruises &amp; Data</a>
+      <a class="btn btn-alt" href="#pipeline">The AI Pipeline</a>
+      <a class="btn btn-alt" href="#team">People &amp; Outputs</a>
+    </div>
+    <figure class="hero-qr">
+      <img src="images/qr_site.png" alt="QR code linking to this website" width="120" height="120">
+      <figcaption>Link for conference visitors</figcaption>
+    </figure>
+  </div>
+</header>
+
+<!-- ============ QUICK FACTS ============ -->
+<section class="facts">
+  <div class="container facts-grid">
+    <div class="fact"><strong>4</strong><span>Research cruises to Adlergrund</span></div>
+    <div class="fact"><strong>~10 000</strong><span>images &amp; video frames collected</span></div>
+    <div class="fact"><strong>5</strong><span>camera systems deployed</span></div>
+    <div class="fact"><strong>2</strong><span>theses produced / in progress</span></div>
+  </div>
+</section>
+
+<!-- ============ WHY ============ -->
+<section id="why">
+  <div class="container narrow">
+    <h2>Why non-invasive monitoring?</h2>
+    <p>Conventional fish monitoring in marine protected waters relies largely on capture-based sampling, which can disturb organisms and habitats. The SCHUFI project investigates <strong>non-invasive methods</strong> — eDNA, plankton sampling, isotope testing, and <strong>imaging</strong> — to observe fish in their natural environments.</p>
+    <p>Our work focuses on the <strong>imaging approach</strong>: systematically recording fish in their natural habitats in the <em>Adlergrund</em> and <em>Naturschutzgebiet Pommersche Bucht–Rönnebank</em> (German Baltic Sea MPAs), assessing image quality under real Baltic conditions, and evaluating how far automated fish detection can be applied to this imagery — laying the foundation for <strong>scalable, image-based biodiversity monitoring</strong>.</p>
+    <figure>
+      <img src="images/map_adlergrund_stations.jpg" alt="Sampling stations in the Adlergrund study area">
+      <figcaption>Sampling stations in the Adlergrund study area, northeast of Rügen (larger beach photo: RV Prince Madog).</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ CRUISES ============ -->
+<section id="cruises" class="alt">
+  <div class="container">
+    <h2>What we've done so far — four cruises</h2>
+    <p class="section-lead">So far we have carried out <strong>four research cruises</strong> to the Adlergrund shoal area. One cruise was conducted with the GEOMAR Helmholtz Centre for Ocean Research Kiel aboard RV <em>Alkor</em>; three further campaigns followed in <strong>April, July and September 2026</strong> (April aboard RV <em>Prince Madog</em>, 20.–27.04.2026), deploying multiple camera systems across stations at depths of roughly <strong>1–30 m</strong>, varying sampling frequency, time of day and lighting conditions.</p>
+    <div class="grid cards" id="camcards">
+      <article class="card">
+        <img src="images/sample_tow_camera_underwater.jpg" alt="Tow camera operating underwater">
+        <h3>Multi-system data acquisition</h3>
+        <p>ROV, tow camera, BRUV300 stereo camera and static stereo/360° camera complexes deployed across stations — day and night, calm to turbid conditions.</p>
+      </article>
+      <article class="card">
+        <img src="images/sample_drone_flounder_23m.jpg" alt="Flounder over rocky mussel substrate, drone camera, 23 m">
+        <h3>Real Baltic conditions</h3>
+        <p>Clear days, dawn/night deployments, white-balance drift, marine snow and decolouration — deliberately sampled to understand what imagery automated analysis can cope with.</p>
+      </article>
+      <article class="card">
+        <img src="images/reference_cod.jpg" alt="Reference photograph of a Baltic cod">
+        <h3>Ground truth &amp; species knowledge</h3>
+        <p>Reference images of key species (cod, scorpionfish, flounder…) and expert-verified species traits (shape, size, mobility, water-column position, activity patterns …) anchor the analysis.</p>
+      </article>
+    </div>
+
+    <div class="grid three">
+      <figure><img src="images/sample_stereo_station30.jpg" alt="Static stereo camera frame, station 30"><figcaption>Static stereo camera · station 30, mussels and rocky ground</figcaption></figure>
+      <figure><img src="images/sample_stereo_dawn_station30.jpg" alt="Static stereo camera frame, station 30, low light"><figcaption>Same station at day–night transition — low light, different behaviour</figcaption></figure>
+      <figure><img src="images/sample_drone_night_marine_snow.jpg" alt="ROV night image with marine snow"><figcaption>ROV at night — marine snow backscatter, auto white balance</figcaption></figure>
+    </div>
+
+    <figure class="wide">
+      <img src="images/rv_prince_madog.jpg" alt="Research vessel Prince Madog">
+      <figcaption>Research vessel <em>Prince Madog</em> — platform of the April 2026 Adlergrund campaign.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ CAMERAS ============ -->
+<section id="cameras">
+  <div class="container">
+    <h2>The camera systems</h2>
+    <p class="section-lead">Five complementary systems — dynamic vs. static, mono vs. stereo — each with different strengths in water-column position, deployment time, illumination and species accessibility.</p>
+    <div class="grid cams">
+      <figure><img src="images/cam_rov_chasing_m2.jpg" alt="Chasing M2 ROV"><figcaption><strong>ROV · Chasing M2</strong> — manually operated, flexible depth range, mobile video survey.</figcaption></figure>
+      <figure><img src="images/cam_tow_camera.jpg" alt="Tow camera (Schleppkamera)"><figcaption><strong>Tow camera · Schleppkamera</strong> — towed at 1–3 knots along transects, wide-area benthic coverage.</figcaption></figure>
+      <figure><img src="images/cam_bruv300.jpg" alt="BRUV300 stereo camera"><figcaption><strong>BRUV300</strong> — static stereo benthic camera; stereo pairs enable fish <em>size estimation</em>.</figcaption></figure>
+      <figure><img src="images/cam_static_stereo.jpg" alt="Static stereo camera rig"><figcaption><strong>Static stereo camera</strong> — stationary rigs for long-duration observation incl. night recordings.</figcaption></figure>
+      <figure><img src="images/cam_drop_360.jpg" alt="Static drop camera"><figcaption><strong>Static drop / mono cameras</strong> — long recordings (up to 10+ h per deployment) at fixed stations.</figcaption></figure>
+      <figure><img src="images/cam_fishcam_1.jpg" alt="Camera rig detail"><figcaption><strong>360° camera complex</strong> — mono + stereo array; 38+ h per camera recorded in a single campaign.</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PIPELINE ============ -->
+<section id="pipeline" class="alt">
+  <div class="container narrow">
+    <h2>Our imaging-to-AI pipeline</h2>
+    <div class="steps">
+      <div class="step done"><span>1 · Location choice</span><p>Selecting stations where species of interest (esp. benthic/pelagic species) and terrain — mussels, rocks, sand — make imaging worthwhile.</p></div>
+      <div class="step done"><span>2 · Data acquisition</span><p>Camera types matched to questions: stereo for size/depth, ROV/drone for mobility and coverage, static cameras for long-duration sampling.</p></div>
+      <div class="step done"><span>3 · Raw data preservation</span><p>Research data management: metadata for every deployment event, protocols and structured archiving of ~10 000 images (imaging lead: Dheeraj Tippani).</p></div>
+      <div class="step active"><span>4 · Automatic data filtering</span><p>Video/image segmentation and per-image quality scoring (underwater image quality metrics) to cut manual screening cost.</p></div>
+      <div class="step active"><span>5 · Automatic fish detection</span><p>Pretrained YOLO / RCNN / DETR family detectors evaluated on genuine Adlergrund imagery — e.g. a pretrained FishNet on our ROV drone footage.</p></div>
+      <div class="step"><span>6 · Species classification</span><p>Detection is solvable; <em>species-level</em> classification of Baltic species is the hard part — no benchmark dataset covers them.</p></div>
+      <div class="step"><span>7 · Size estimation</span><p>Underwater stereo photogrammetry (with underwater-specific calibration) → per-species size distributions.</p></div>
+    </div>
+    <h3>The known challenges</h3>
+    <div class="chips">
+      <span>Marine snow / backscatter</span><span>White-balance &amp; colour drift</span><span>Turbidity</span><span>Darkness &amp; illumination</span><span>Camouflaged fish</span><span>Inactive behaviour</span><span>Occlusion when crowding</span><span>Limited camera visual range</span><span>No Baltic species datasets</span><span>Similar-looking species</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DETECTION EXAMPLES ============ -->
+<section id="detections">
+  <div class="container">
+    <h2>Reality check — what the models see</h2>
+    <p class="section-lead">First tests of pretrained detectors on our own imagery illustrate exactly the gap that motivates this project: in these frames fish are <em>present</em> but remain undetected — not for lack of data, but because of the conditions real Baltic Sea videos are made of.</p>
+    <div class="grid three">
+      <figure><img src="images/det_stereo_scorpionfish_missed.jpg" alt="Stereo-camera frame, station 30: mussels, slight white-balance drift, semi-turbid water, fish present but not detected"><figcaption>Static stereo · station 30 — mussels, semi-turbid water, white balance off: fish <strong>present but not detected</strong>. Camouflage is the classic problem.</figcaption></figure>
+      <figure><img src="images/det_cam360_green_tint.jpg" alt="Static camera frame, station 49: heavy green tint and severe decolouration"><figcaption>Drop camera · station 49 — severe decolouration and green tint. Image-quality correction (step 4) is a prerequisite for reliable detection.</figcaption></figure>
+      <figure><img src="images/det_drone_flounder_whitebalance.jpg" alt="ROV/drone frame, 23 m: flounder over rocky mussel ground, auto white balance"><figcaption>ROV/drone · 23 m — technically the most favourable frame: clear day, white balance adjusted, flounder over rocky/mussel ground. Even here, benthic camouflaged species are challenging.</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LITERATURE ============ -->
+<section id="literature" class="alt">
+  <div class="container narrow">
+    <h2>What the literature tells us</h2>
+    <div class="grid three">
+      <div class="callout"><h3>Detection works — on benchmark data</h3><p>YOLO/RCNN-family models reach 90–99% accuracy on benchmark datasets, but performance degrades sharply on uncontrolled, real-world ocean footage (occlusion, turbidity, camouflage).</p></div>
+      <div class="callout"><h3>Rich but unrepresentative datasets</h3><p>DeepFish, SEAMAPD21, FRGT, Fish4Knowledge, FishDet-M (13 unified datasets), OzFish and others exceed 100 000 annotated images — yet <strong>zero coverage of the Baltic</strong> and of non-commercial species.</p></div>
+      <div class="callout"><h3>Gaps we target</h3><p>Fish <em>size estimation</em> from wild imagery is understudied, data-acquisition methods are poorly documented, and Baltic benthic/pelagic species — especially non-commercial ones — are missing from benchmarks. Building that ground truth is a core task of our cruises.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CURRENT WORK / WHERE WE ARE ============ -->
+<section id="now">
+  <div class="container narrow">
+    <h2>What I'm working on right now</h2>
+    <p>Fish detection on Adlergrund footage is the first tractable milestone; beyond that, the focus shifts from scaled manual annotation toward <strong>automation and new technology</strong>:</p>
+    <ul class="dotlist">
+      <li><strong>Automatic data filtering</strong> — underwater image quality scoring, timeseries segmentation (image-noise-based segmentation, anomaly detection) to prefilter ~10 000 images before any manual screening.</li>
+      <li><strong>Evaluating pretrained detection models</strong> (YOLO family, Faster R-CNN, DETR-family, DINOv3 vision transformers) on genuine Adlergrund underwater footage.</li>
+      <li><strong>Species-knowledge driven</strong> analysis: expert-verified fish characteristics (shape, size, mobility, water-column position, day/night activity, frequency, camouflage) mapped onto camera capabilities — a fish–camera matrix built via principal-component analysis (bachelor thesis Emil, see below).</li>
+      <li><strong>Baltic ground truth</strong> — selected key species (cod, scorpionfish, flounder…) and field-site expertise for validating what the models infer.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ TEAM & OUTPUTS ============ -->
+<section id="team" class="alt">
+  <div class="container">
+    <h2>Team outputs</h2>
+    <div class="grid three">
+      <article class="callout">
+        <h3>Bachelor thesis — completed</h3>
+        <p>Camera systems vs. fish species: an expert-verified trait framework (ten parameters) combining fish characteristics with camera competency of the deployed systems, analysed with logical matching + principal-component analysis on Prince Madog campaign data (2026).</p>
+      </article>
+      <article class="callout">
+        <h3>Master's thesis — in progress</h3>
+        <p><strong>Zero-shot clustering of wild fish images with vision transformers</strong> (start Nov 2026): applying the DINOv3 embedding + clustering pipeline of Markoff, Bengtson &amp; Ørsted (2026) to open-source fish datasets, then embedding SCHUFI's Baltic imagery in the same space. Nov 2026 → Mar 2027 · supervisors: Prof. Dr. H. Theisel (OVGU Magdeburg), Dr. V. Fischbach &amp; Dheeraj Tippani (Univ. Rostock).</p>
+      </article>
+      <article class="callout">
+        <h3>Conference · GFI 2026</h3>
+        <p>Poster: <em>Non-invasive Fish Monitoring in Baltic Sea Marine Protected Areas: Underwater Imaging and Automated Fish Detection</em> — Tippani &amp; Fischbach, University of Rostock, November 2026. <strong>You're reading the companion page for the poster. 👋</strong></p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PLANS ============ -->
+<section id="plans">
+  <div class="container narrow">
+    <h2>What we plan to do</h2>
+    <ul class="dotlist">
+      <li>Dec 2026: run the zero-shot clustering pipeline on open-source fish datasets, then transfer to SCHUFI imagery — key step toward <em>species-level inference without Baltic training data</em>.</li>
+      <li><strong>2027 (Tier 1):</strong> conference presentations and peer-reviewed papers from the Adlergrund cruises; a scalable end-to-end imaging pipeline (acquisition → filtering → detection → size estimation).</li>
+      <li><strong>2027 (Tier 2):</strong> custom-built ROV, expanding multi-method integration (imaging ↔ eDNA ↔ isotope testing ↔ plankton sampling) for fish ecology and biodiversity monitoring in the German EEZ.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="container footer-grid">
+    <div>
+      <h3>Sai Dheeraj Reddy Tippani</h3>
+      <p>Institute of Biosciences · Aquatic Ecology<br>University of Rostock, Germany<br>SCHUFI project — imaging workstream &amp; research data management lead</p>
+    </div>
+    <div class="footer-qr">
+      <img src="images/qr_site.png" alt="QR code to this page" width="130" height="130">
+      <p>dheeraj9932.github.io/schufi_uni_rostock_imaging</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
